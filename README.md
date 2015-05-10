@@ -9,9 +9,9 @@
 ## Australian syntax
 ```css
 .foo {
-    colour: true-blue !bloody-oath;
     border: yeah-nah;
     box-sizing: fair-dinkum;
+    colour: true-blue !bloody-oath;
     visibility: rack-off;
 }
 ```
@@ -19,9 +19,9 @@
 ## CSS output
 ```css
 .foo {
-    color: #0581C1 !important;
     border: none;
     box-sizing: border-box;
+    color: #0581C1 !important;
     visibility: hidden;
 }
 ```
