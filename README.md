@@ -15,7 +15,7 @@
 
 ```css
 .foo {
-    colour: blue !important;
+    color: blue !important;
     border: none;
 }
 ```
