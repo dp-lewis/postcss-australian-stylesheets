@@ -17,7 +17,7 @@
 ## CSS output
 ```css
 .foo {
-    color: blue !important;
+    color: #0581C1 !important;
     border: none;
 }
 ```

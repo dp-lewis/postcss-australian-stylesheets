@@ -32,8 +32,8 @@ describe('postcss-australian-stylesheets', function() {
     });
 
     // true-blue to blue
-    it('converts true-blue to blue', function(done) {
-        test('a{ color: true-blue; }', 'a{ color: blue; }', {}, done);
+    it('converts true-blue to #0581C1', function(done) {
+        test('a{ color: true-blue; }', 'a{ color: #0581C1; }', {}, done);
     });
 
     // yeah-nah to none
