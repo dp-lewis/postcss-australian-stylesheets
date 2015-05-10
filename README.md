@@ -1,6 +1,6 @@
-# PostCSS Australian Style Sheets [![Build Status][ci-img]][ci]
+# PostCSS Australian Stylesheets [![Build Status][ci-img]][ci]
 
-[PostCSS] plugin for writing Australian Style Sheets.
+[PostCSS] plugin for writing Australian Stylesheets.
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/dp-lewis/postcss-australian-stylesheets.svg
