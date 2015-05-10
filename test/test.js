@@ -45,4 +45,9 @@ describe('postcss-australian-stylesheets', function() {
     it('converts fair-dinkum to border-box', function(done) {
         test('a{ box-sizing: fair-dinkum; }', 'a{ box-sizing: border-box; }', {}, done);
     });
+
+    // rack-off to hidden
+    it('converts rack-off to hidden', function(done) {
+        test('a{ visibility: rack-off; }', 'a{ visibility: hidden; }', {}, done);
+    });
 });

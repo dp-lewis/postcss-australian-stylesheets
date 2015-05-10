@@ -12,6 +12,7 @@
     colour: true-blue !bloody-oath;
     border: yeah-nah;
     box-sizing: fair-dinkum;
+    visibility: rack-off;
 }
 ```
 
@@ -21,6 +22,7 @@
     color: #0581C1 !important;
     border: none;
     box-sizing: border-box;
+    visibility: hidden;
 }
 ```
 

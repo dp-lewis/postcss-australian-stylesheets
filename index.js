@@ -10,6 +10,7 @@ module.exports = postcss.plugin('postcss-ass', function(opts) {
             decl.value = decl.value.replace('true-blue', '#0581C1');
             decl.value = decl.value.replace('yeah-nah', 'none');
             decl.value = decl.value.replace('fair-dinkum', 'border-box');
+            decl.value = decl.value.replace('rack-off', 'hidden');
 
             if (decl.value.indexOf('!bloody-oath') >= 0) {
                 decl.value = decl.value.replace(/\s*!bloody-oath\s*/, '');
