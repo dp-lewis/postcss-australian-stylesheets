@@ -7,8 +7,11 @@ module.exports = postcss.plugin('postcss-ass', function(opts) {
 
         css.eachDecl(function transformDecl(decl) {
             decl.prop = decl.prop.replace('colour', 'color');
+            decl.prop = decl.prop.replace('zed-index', 'z-index');
+            decl.value = decl.value.replace('centre', 'center');
             decl.value = decl.value.replace('true-blue', '#0581C1');
             decl.value = decl.value.replace('vegemite', '#461B00');
+            decl.value = decl.value.replace('vb-green', '#2D8249');
             decl.value = decl.value.replace('yeah-nah', 'none');
             decl.value = decl.value.replace('fair-dinkum', 'border-box');
             decl.value = decl.value.replace('rack-off', 'hidden');

@@ -60,4 +60,19 @@ describe('postcss-australian-stylesheets', function() {
     it('converts rack-off to hidden', function(done) {
         test('a{ visibility: rack-off; }', 'a{ visibility: hidden; }', {}, done);
     });
+
+    // zed-index to z-index
+    it('converts zed-index to z-index', function(done) {
+        test('a{ zed-index: 100; }', 'a{ z-index: 100; }', {}, done);
+    });
+
+    // vb-green to #2D8249
+    it('converts vb-green to #2D8249', function(done) {
+        test('a{ color: vb-green; }', 'a{ color: #2D8249; }', {}, done);
+    });
+
+    // centre to center
+    it('converts centre to center', function(done) {
+        test('a{ text-align: centre; }', 'a{ text-align: center; }', {}, done);
+    });
 });
