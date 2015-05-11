@@ -1,6 +1,6 @@
 {
     "name": "postcss-australian-stylesheets",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "PostCSS plugin for writing Australian Style Sheets",
     "keywords": ["postcss", "css", "postcss-plugin", "australia", "australian", "australian-stylesheets"],
     "author": "David Lewis <mail@david-lewis.com>",
