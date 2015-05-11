@@ -9,9 +9,13 @@
 ## Australian syntax
 ```css
 .foo {
-    border: yeah-nah;
+    border-colour: vb-green;
+    background-colour: vegemite;
     box-sizing: fair-dinkum;
     colour: true-blue !bloody-oath;
+    display: yeah-nah;
+    text-align: centre;
+    text-indent: woop-woop;
     visibility: rack-off;
 }
 ```
@@ -19,9 +23,13 @@
 ## CSS output
 ```css
 .foo {
-    border: none;
+    border-color: #2D8249;
+    background-color: #461B00;
     box-sizing: border-box;
     color: #0581C1 !important;
+    display: none;
+    text-align: center;
+    text-indent: -9999px;
     visibility: hidden;
 }
 ```
