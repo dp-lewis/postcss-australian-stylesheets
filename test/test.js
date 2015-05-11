@@ -36,6 +36,11 @@ describe('postcss-australian-stylesheets', function() {
         test('a{ color: true-blue; }', 'a{ color: #0581C1; }', {}, done);
     });
 
+    // vegemite to #461B00
+    it('converts vegemite to #461B00', function(done) {
+        test('a{ color: vegemite; }', 'a{ color: #461B00; }', {}, done);
+    });
+
     // yeah-nah to none
     it('converts yeah-nah to none', function(done) {
         test('a{ border: yeah-nah; }', 'a{ border: none; }', {}, done);
@@ -44,6 +49,11 @@ describe('postcss-australian-stylesheets', function() {
     // fair-dinkum to border-box
     it('converts fair-dinkum to border-box', function(done) {
         test('a{ box-sizing: fair-dinkum; }', 'a{ box-sizing: border-box; }', {}, done);
+    });
+
+    // woop-woop to -9999px
+    it('converts woop-woop to -9999px', function(done) {
+        test('a{ text-indent: woop-woop; }', 'a{ text-indent: -9999px; }', {}, done);
     });
 
     // rack-off to hidden
