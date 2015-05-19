@@ -1,4 +1,3 @@
-/*global it, describe*/
 var postcss = require('postcss');
 var expect = require('chai').expect;
 
