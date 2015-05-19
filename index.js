@@ -1,8 +1,6 @@
 var postcss = require('postcss');
 
-module.exports = postcss.plugin('postcss-ass', function(opts) {
-    opts = opts || {};
-
+module.exports = postcss.plugin('postcss-ass', function() {
     return function(css) {
 
         css.eachDecl(function transformDecl(decl) {
