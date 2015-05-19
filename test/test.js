@@ -35,7 +35,7 @@ describe('postcss-australian-stylesheets', function() {
         test('a{ text-align: centre; }', 'a{ text-align: center; }', {}, done);
     });
 
-    // true-blue to blue
+    // true-blue to #0581C1
     it('converts true-blue to #0581C1', function(done) {
         test('a{ color: true-blue; }', 'a{ color: #0581C1; }', {}, done);
     });
@@ -48,6 +48,16 @@ describe('postcss-australian-stylesheets', function() {
     // vb-green to #2D8249
     it('converts vb-green to #2D8249', function(done) {
         test('a{ color: vb-green; }', 'a{ color: #2D8249; }', {}, done);
+    });
+
+    // kangaroo to #E6924A
+    it('converts kangaroo to #E6924A', function(done) {
+        test('a{ color: kangaroo; }', 'a{ color: #E6924A; }', {}, done);
+    });
+
+    // koala to #B6B7BC
+    it('converts koala to #B6B7BC', function(done) {
+        test('a{ color: koala; }', 'a{ color: #B6B7BC; }', {}, done);
     });
 
     // yeah-nah to none
