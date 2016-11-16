@@ -10,6 +10,7 @@ module.exports = postcss.plugin('postcss-ass', function() {
             decl.value = decl.value.replace('true-blue', '#0581C1');
             decl.value = decl.value.replace('vegemite', '#461B00');
             decl.value = decl.value.replace('vb-green', '#2D8249');
+            decl.value = decl.value.replace('xxxx-yellow', '#FFD142');
             decl.value = decl.value.replace('kangaroo', '#E6924A');
             decl.value = decl.value.replace('koala', '#B6B7BC');
             decl.value = decl.value.replace('yeah-nah', 'none');
