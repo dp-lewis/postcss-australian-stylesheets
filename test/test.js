@@ -50,6 +50,11 @@ describe('postcss-australian-stylesheets', function() {
         test('a{ color: vb-green; }', 'a{ color: #2D8249; }', {}, done);
     });
 
+    // xxxx-yellow to #FFD142
+    it('converts xxxx-yellow to #FFD142', function(done) {
+        test('a{ color: xxxx-yellow; }', 'a{ color: #FFD142; }', {}, done);
+    });
+
     // kangaroo to #E6924A
     it('converts kangaroo to #E6924A', function(done) {
         test('a{ color: kangaroo; }', 'a{ color: #E6924A; }', {}, done);
