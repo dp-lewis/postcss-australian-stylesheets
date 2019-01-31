@@ -13,7 +13,7 @@
         "postcss": "^4.1.5"
     },
     "devDependencies": {
-        "gulp-eslint": "0.9.0",
+        "gulp-eslint": "5.0.0",
         "gulp-mocha":  "6.0.0",
         "chai":        "2.2.0",
         "gulp":        "3.8.11"
