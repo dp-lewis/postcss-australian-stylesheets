@@ -10,7 +10,7 @@
         "url":  "https://github.com/dp-lewis/postcss-australian-stylesheets.git"
     },
     "dependencies": {
-        "postcss": "^4.1.5"
+        "postcss": "4.1.16"
     },
     "devDependencies": {
         "gulp-eslint": "0.9.0",
